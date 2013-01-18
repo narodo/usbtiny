@@ -1,0 +1,253 @@
+# EESchema Netlist Version 1.1 created  Fri 30 Nov 2012 08:12:33 PM CET
+(
+ ( /50B3CE6A SM0805 C1 12p
+  ( 1 N-000033 )
+  ( 2 GND )
+ )
+ ( /50B3CE78 SM0805 C2 12p
+  ( 1 N-000035 )
+  ( 2 GND )
+ )
+ ( /50B3D504 SM0805 C3 100n
+  ( 1 +5VP )
+  ( 2 GND )
+ )
+ ( /50B507E7 SM0805 C4 100n
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /50B51107 C1V5H C5 100uF
+  ( 1 N-000032 )
+  ( 2 GND )
+ )
+ ( /50B3CEDC D3 D1 ZENER
+  ( 1 GND )
+  ( 2 N-000030 )
+ )
+ ( /50B3CEEF D3 D2 ZENER
+  ( 1 GND )
+  ( 2 N-000006 )
+ )
+ ( /50B3D21A LED-3MM D3 LED
+  ( 1 N-000015 )
+  ( 2 GND )
+ )
+ ( /50B3D22C LED-3MM D4 LED
+  ( 1 N-000014 )
+  ( 2 GND )
+ )
+ ( /50B3CD8D SOIC20-WIDE IC1 ATTINY2313-P
+  ( 1 N-000011 )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 N-000033 )
+  ( 5 N-000035 )
+  ( 6 /DP )
+  ( 7 /DN )
+  ( 8 /BUF_EN )
+  ( 9 /BUSY )
+  ( 10 GND )
+  ( 11 N-000017 )
+  ( 12 /PWR_OK )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 /RST_AVR )
+  ( 17 /MOSI_AVR )
+  ( 18 /MISO_AVR )
+  ( 19 /SCK_AVR )
+  ( 20 +5VP )
+ )
+ ( /50B3CE9A USB_B J1 USB
+  ( 1 N-000032 )
+  ( 2 N-000030 )
+  ( 3 N-000006 )
+  ( 4 GND )
+  ( 5 ? )
+  ( 6 ? )
+ )
+ ( /50B3D04D PIN_ARRAY_2X1 JP1 JUMPER
+  ( 1 +5VP )
+  ( 2 N-000032 )
+ )
+ ( /50B3D6EA PIN_ARRAY_2X1 JP2 JUMPER
+  ( 1 VCC )
+  ( 2 +5VP )
+ )
+ ( /50B3D76B RIBBON_SOCKET_2x5 P1 CONN_5X2
+  ( 1 /MOSI )
+  ( 2 VCC )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 /RST )
+  ( 6 GND )
+  ( 7 /SCK )
+  ( 8 GND )
+  ( 9 /MISO )
+  ( 10 GND )
+ )
+ ( /50B3D773 pin_array_3x2 P2 CONN_3X2
+  ( 1 /MISO )
+  ( 2 VCC )
+  ( 3 /SCK )
+  ( 4 /MOSI )
+  ( 5 /RST )
+  ( 6 GND )
+ )
+ ( /50B3CDB9 SM0805 R1 1k5
+  ( 1 N-000017 )
+  ( 2 N-000030 )
+ )
+ ( /50B3CDB2 SM0805 R2 1k5
+  ( 1 /PWR_OK )
+  ( 2 N-000015 )
+ )
+ ( /50B3CD9C SM0805 R3 33
+  ( 1 /DP )
+  ( 2 N-000006 )
+ )
+ ( /50B3CDA2 SM0805 R4 33
+  ( 1 N-000030 )
+  ( 2 /DN )
+ )
+ ( /50B3CDA5 SM0805 R5 1k5
+  ( 1 /BUSY )
+  ( 2 N-000014 )
+ )
+ ( /50B3CDBC SM0805 R6 10k
+  ( 1 +5VP )
+  ( 2 N-000011 )
+ )
+ ( /50B3CDBF SM0805 R7 1k5
+  ( 1 /SCK )
+  ( 2 N-000021 )
+ )
+ ( /50B3CDBE SM0805 R8 1k5
+  ( 1 /MOSI )
+  ( 2 N-000028 )
+ )
+ ( /50B3CE40 SO14E U1 74LS125
+  ( 1 /BUF_EN )
+  ( 2 /SCK_AVR )
+  ( 3 N-000021 )
+  ( 4 /BUF_EN )
+  ( 5 /MISO )
+  ( 6 /MISO_AVR )
+  ( 7 GND )
+  ( 8 N-000028 )
+  ( 9 /MOSI_AVR )
+  ( 10 /BUF_EN )
+  ( 11 /RST )
+  ( 12 /RST_AVR )
+  ( 13 /BUF_EN )
+  ( 14 VCC )
+ )
+ ( /50B51755 Q_49U3HMS X1 CRYSTAL
+  ( 1 N-000033 )
+  ( 2 N-000035 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component D1
+ D?
+ SO*
+ SM*
+$endlist
+$component D2
+ D?
+ SO*
+ SM*
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}

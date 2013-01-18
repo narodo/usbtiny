@@ -1,0 +1,178 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Fri 30 Nov 2012 08:12:33 PM CET
+
+BeginCmp
+TimeStamp = /50B3CE6A;
+Reference = C1;
+ValeurCmp = 12p;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3CE78;
+Reference = C2;
+ValeurCmp = 12p;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3D504;
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B507E7;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B51107;
+Reference = C5;
+ValeurCmp = 100uF;
+IdModule  = C1V5H;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3CEDC;
+Reference = D1;
+ValeurCmp = ZENER;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3CEEF;
+Reference = D2;
+ValeurCmp = ZENER;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3D21A;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3D22C;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3CD8D;
+Reference = IC1;
+ValeurCmp = ATTINY2313-P;
+IdModule  = SOIC20-WIDE;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3CE9A;
+Reference = J1;
+ValeurCmp = USB;
+IdModule  = USB_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3D04D;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3D6EA;
+Reference = JP2;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3D76B;
+Reference = P1;
+ValeurCmp = CONN_5X2;
+IdModule  = RIBBON_SOCKET_2x5;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3D773;
+Reference = P2;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3CDB9;
+Reference = R1;
+ValeurCmp = 1k5;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3CDB2;
+Reference = R2;
+ValeurCmp = 1k5;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3CD9C;
+Reference = R3;
+ValeurCmp = 33;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3CDA2;
+Reference = R4;
+ValeurCmp = 33;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3CDA5;
+Reference = R5;
+ValeurCmp = 1k5;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3CDBC;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3CDBF;
+Reference = R7;
+ValeurCmp = 1k5;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3CDBE;
+Reference = R8;
+ValeurCmp = 1k5;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B3CE40;
+Reference = U1;
+ValeurCmp = 74LS125;
+IdModule  = SO14E;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B51755;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = Q_49U3HMS;
+EndCmp
+
+EndListe
